@@ -13,6 +13,6 @@ jobs:
 
       - name: Trigger POST request
         run: |
-          curl -X POST https://api.example.com/endpoint \
+          curl -X POST https://testgit.free.beeceptor.com \
           -H "Content-Type: application/json" \
-          -d '{"key":"value"}'
+          -d '{"api_test":"successful"}'
