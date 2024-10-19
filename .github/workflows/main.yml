@@ -1,7 +1,8 @@
 name: Trigger POST API
 
 on:
-  workflow_dispatch:
+  repository_dispatch:
+    types: [trigger-post]
 
 jobs:
   trigger-post:
